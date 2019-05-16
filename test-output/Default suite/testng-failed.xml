@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="OperationaAndWebElements.XPath">
+        <methods>
+          <include name="XPath1"/>
+          <include name="XpathSelectSiblingAndPreceding"/>
+          <include name="XpathUsingOr_And"/>
+          <include name="SelectingAnElementUsing_Ancestor_Child_Parent_Descendent"/>
+        </methods>
+      </class> <!-- OperationaAndWebElements.XPath -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
